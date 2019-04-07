@@ -1,0 +1,73 @@
+
+// 首字母相同，放到一块
+.ba-fff{background: #fff;}
+.c-ffd{color: #ffd005 !important;}
+.c-ed4{color: $danger-color !important;}
+.c-link{color: $link-color;}
+td.cname{color: $link-color;} // 由于表格的th颜色不变
+.c-table-index{color: $text-secondary-color;}
+.danger {color: $warning-color !important;}
+.clear{clear: both;}
+.cp{cursor: pointer;}
+.fl{float: left;}
+.fr{float: right;}
+.fs18{font-size: 18px;}
+.fs12{font-size: 12px !important;}
+.fbw{font-weight: bold;}
+.hide{display: none;}
+.mb15{margin-bottom: 15px;}
+.mb20{padding-bottom: 20px !important;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml20{margin-left: 20px;}
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt_12{margin-top: -12px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.mr20{margin-right: 20px;}
+.ml_10{margin-left: -10px;}
+.pab{position: absolute;}
+.pr5{padding-right: 5px;}
+.pl10{padding-left: 10px;}
+.pl20{padding-left: 20px;}
+.pr10{padding-right: 10px;}
+.pr20{padding-right: 20px;}
+.pr30{padding-right: 30px;}
+.show{display: block;}
+.tar{text-align: right;}
+.tac{text-align: center;}
+.w_100{width: 100%;}
+.nowrap{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 42px;
+  background: rgb(235,245,255);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 8px;
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 18px;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 0 8px;
+    line-height: 20px;
+    border-left: 3px solid #4392f7;
+  }
+  .fs14{
+    font-size: 14px !important;
+    color: #777 !important;
+  }
+}
