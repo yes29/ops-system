@@ -2,47 +2,52 @@
 ```bash
 > `yeSong(2018-12-17)`
 ```
-## Project setup
+## 项目介绍
 ```bash
- 
+
+技术体系：typeSrcpt、、vue、element-ui、scss、vue-router、axios、vuex
+编译工具：yarn、webpack
+开发工具：Visual Studio Code(可在代码打断点、占用内存少、不卡，便于双屏开发)
+核心思想：组件化、json驱动表格、表单，做到一改全改、减少bug
+
 ```
 
-### Compiles and hot-reloads for development
+### 编译和热重载，用于开发
 
 ```bash
 yarn serve
 ```
 
-### Compiles and minifies for production
+### 打包到生产环境
 
 ```bash
 yarn build
 ```
 
-### Lints and fixes files
+### Lints 修复文件
 
 ```bash
 yarn lint
 ```
 
-### Run your unit tests
+### 运行单元测试
 
 ```bash
 yarn test:unit
 ```
 
-### Run your end-to-end tests
+### 运行端对端测试
 
 ```bash
 yarn test:e2e
 ```
 
-### Run all tests
+### 运行全部测试
 
 ```bash
 yarn test
 ```
 
-## Browsers support
+## 测试器支持
 
 Modern browsers and Internet Explorer 10+
